@@ -1,5 +1,6 @@
 // pages/login.js
 import { useState } from 'react';
+import '../../styles/index.css';
 
 export default function Login() {
   const [formData, setFormData] = useState({
